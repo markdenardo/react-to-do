@@ -1,5 +1,7 @@
 
 import React, { useState } from 'react';
+import Todo from './Todo';
+import TodoForm from './TodoForm';
 
 
 import './App.css';
@@ -12,11 +14,6 @@ import './App.css';
       { text: "Build really cool todo app" }
     ]);
 
-    // we'll render our todos here ...
-    // return <div></div>
-
-    const Todo = ({ todo }) => <div className="todo">{todo.text}</div>;
-  
   return (
     <div className="app">
       <div className="todo-list">
